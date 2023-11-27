@@ -1,2 +1,3 @@
-.gz
-./data
+data
+MSMARCO_SMALL
+index.json.gz
