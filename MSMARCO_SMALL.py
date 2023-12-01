@@ -26,7 +26,7 @@ collection = pd.DataFrame(pd.read_table("data\collection.tsv",delimiter='\t',hea
 collection.columns = ['pid', 'passage']
 
 # Percentage to get rid of
-percentage = 99.9
+percentage = 99
 
 # Getting the indices of the rows to get rid of
 num_rows = int(len(collection) * percentage / 100)

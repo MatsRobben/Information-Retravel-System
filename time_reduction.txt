@@ -1,0 +1,5 @@
+Without preselecting docs: 31m 45s
+With preselecting docs: 2m 18s
+
+(31 * 60 + 45) / (2*60+18) = 13.8
+Almost 14 times increase in effcicentcy on 1% on the collection data and about 500 queries.
